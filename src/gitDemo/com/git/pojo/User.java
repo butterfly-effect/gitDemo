@@ -6,6 +6,15 @@ public class User {
 	private String age;
 	private String gender;
 	private String address;
+	private Integer labId;
+
+	public Integer getLabId() {
+		return labId;
+	}
+
+	public void setLabId(Integer labId) {
+		this.labId = labId;
+	}
 
 	public String getName() {
 		return name;
